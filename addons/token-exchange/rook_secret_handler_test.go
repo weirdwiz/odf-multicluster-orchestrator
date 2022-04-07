@@ -11,7 +11,6 @@ import (
 
 	"github.com/openshift/library-go/pkg/operator/events/eventstesting"
 	ocsv1 "github.com/red-hat-storage/ocs-operator/api/v1"
-	"github.com/red-hat-storage/odf-multicluster-orchestrator/controllers/common"
 	cephv1 "github.com/rook/rook/pkg/apis/ceph.rook.io/v1"
 	rookclient "github.com/rook/rook/pkg/client/clientset/versioned/fake"
 	"github.com/stretchr/testify/assert"

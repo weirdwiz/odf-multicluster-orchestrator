@@ -195,11 +195,9 @@ replace (
 	k8s.io/pod-security-admission => k8s.io/pod-security-admission v0.23.4
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.23.4
 	kubevirt.io/client-go => kubevirt.io/client-go v0.29.0
-	open-cluster-management.io/addon-framework => open-cluster-management.io/addon-framework v0.0.0-20210709073210-719dbb79d275
-	open-cluster-management.io/api => open-cluster-management.io/api v0.0.0-20210727123024-41c7397e9f2d
-	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.19
+	sigs.k8s.io/apiserver-network-proxy/konnectivity-client => sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.0.30
 	sigs.k8s.io/cluster-api-provider-aws => github.com/openshift/cluster-api-provider-aws v0.2.1-0.20201022175424-d30c7a274820
 	sigs.k8s.io/cluster-api-provider-azure => github.com/openshift/cluster-api-provider-azure v0.1.0-alpha.3.0.20201016155852-4090a6970205
 	sigs.k8s.io/cluster-api-provider-openstack => github.com/openshift/cluster-api-provider-openstack v0.0.0-20201116051540-155384b859c5
-	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.9.6
+	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.11.1
 )

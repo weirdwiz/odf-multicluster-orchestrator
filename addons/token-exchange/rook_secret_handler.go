@@ -9,7 +9,6 @@ import (
 	"strings"
 
 	ocsv1 "github.com/red-hat-storage/ocs-operator/api/v1"
-	"github.com/red-hat-storage/odf-multicluster-orchestrator/controllers/common"
 	rookclient "github.com/rook/rook/pkg/client/clientset/versioned"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

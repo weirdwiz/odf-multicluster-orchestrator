@@ -1,6 +1,7 @@
 package addons
 
 import (
+	"context"
 	"encoding/json"
 	"fmt"
 	"github.com/red-hat-storage/odf-multicluster-orchestrator/controllers/utils"
@@ -71,7 +72,7 @@ func generateBlueSecret(secret *corev1.Secret, secretType utils.SecretLabelType,
 }
 
 func createSecret(client kubernetes.Interface, recorder events.Recorder, newSecret *corev1.Secret) error {
-	_, _, err := resourceapply.ApplySecret(client.CoreV1(), recorder, newSecret)
+	_, _, err := resourceapply.ApplySecret(context.TODO(), client.CoreV1(), recorder, newSecret)
 	if err != nil {
 		return fmt.Errorf("failed to apply secret %q in namespace %q. Error %v", newSecret.Name, newSecret.Namespace, err)
 	}
